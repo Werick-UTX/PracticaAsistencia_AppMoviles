@@ -7,6 +7,13 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    /*
+    * Datos:
+    * ECG
+    * D = 10
+    * Paleta = #4A235A (primario), 	#F5B041 ( Acento),	#BC94CC (Primario oscuro)
+    * */
+    //Colores
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
