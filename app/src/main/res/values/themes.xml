@@ -6,4 +6,20 @@
     </style>
 
     <style name="Theme.Practica1" parent="Base.Theme.Practica1" />
+    <style name="BotonECG">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/primarioECG</item>
+        <item name="android:textColor">@color/textoBotonECG</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+    <style name="CampoECG">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textoECG</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
 </resources>
