@@ -1,4 +1,3 @@
-<!-- Paleta = #4A235A (primario), 	#F5B041 ( Acento),	#BC94CC (Primario oscuro)-->
 <resources>
     <string name="app_name">Asistencia ECG</string>
 
@@ -6,13 +5,13 @@
     <string name="msg_inicialECG">Escribe tus datos para registrarte</string>
     <string name="hint_nombreECG">Ingresa tu nombre</string>
     <string name="hint_matriculaECG">Ingresa tu matricula</string>
-    <string name="btnRegistrarECG">Registrar</string>
+    <string name="btn_registrarECG">Registrar</string>
     <string name="btn_registrar_otroECG">Registrar otro</string>
     <string name="btn_limpiarECG">Limpiar</string>
     <string name="btn_tema_oscuroECG">Modo oscuro</string>
     <string name="btn_tema_claroECG">Modo claro</string>
 
-    <!--Mensaje validacion -->
+    <!-- Mensajes de validacion -->
     <string name="val_nombre_vacioECG">Escribe tu nombre</string>
     <string name="val_nombre_cortoECG">El nombre es demasiado corto</string>
     <string name="val_matricula_vaciaECG">Escribe tu matricula</string>
