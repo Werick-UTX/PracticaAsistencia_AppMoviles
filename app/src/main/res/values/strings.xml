@@ -3,7 +3,7 @@
     <string name="app_name">Asistencia ECG</string>
 
     <!-- Textos de la interfaz -->
-    <string name="tvMensajeECG">Escribe tus datos para registrarte</string>
+    <string name="msg_inicialECG">Escribe tus datos para registrarte</string>
     <string name="hint_nombreECG">Ingresa tu nombre</string>
     <string name="hint_matriculaECG">Ingresa tu matricula</string>
     <string name="btnRegistrarECG">Registrar</string>

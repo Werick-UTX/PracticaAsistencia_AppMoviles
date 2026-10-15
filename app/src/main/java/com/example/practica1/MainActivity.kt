@@ -11,6 +11,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -29,7 +30,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnRegistrar: Button
     private lateinit var btnLimpiar: Button
     private lateinit var pbCarga: ProgressBar
-
+    private lateinit var btnTema:Button
+    private var oscuroECG = false
     private var contadorAsistentes = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,6 +54,12 @@ class MainActivity : AppCompatActivity() {
             revisar()
         }
         btnLimpiar.setOnClickListener { limpiar() }
+
+        btnTema = findViewById(R.id.btnTema)
+
+        btnTema.setOnClickListener {
+            cambiarTema()
+        }
     }
     fun revisar(){
         val nombreECG = etxtNombre.text.toString().trim()
@@ -98,5 +106,15 @@ class MainActivity : AppCompatActivity() {
         btnRegistrar.isEnabled = true
         btnLimpiar.isEnabled = true
         etxtNombre.requestFocus()
+    }
+    private fun cambiarTema(){
+        oscuroECG = !oscuroECG
+        if (oscuroECG) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            btnTema.text = getString(R.string.btn_tema_claroECG)
+        } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            btnTema.text = getString(R.string.btn_tema_oscuroECG)
+        }
     }
 }

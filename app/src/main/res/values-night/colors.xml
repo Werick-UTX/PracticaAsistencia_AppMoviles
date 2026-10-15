@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primarioECG">#86C3E0</color>
+    <color name="acentoECG">#F2A104</color>
+    <color name="fondoECG">#15202B</color>
+    <color name="textoECG">#F4F6F7</color>
+    <color name="textoBotonECG">#15202B</color>
+</resources>
