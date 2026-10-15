@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- Mi paleta: D = 10   	#4A235A	#F5B041	#BC94CC -->
+
     <color name="primarioECG">#4A235A</color>
     <color name="acentoECG">#F5B041</color>
     <color name="fondoECG">#F4F6F7</color>
